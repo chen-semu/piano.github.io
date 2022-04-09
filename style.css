@@ -1,0 +1,19 @@
+#piano{background-color:rgb(129, 129, 0); width: 50vw;}
+
+.white{ width: 50vw; height: 8vh;border: 2px solid black; background-color: white;
+    border-right: 4px solid black;border-radius: 2vh; color: white ; transition: all 0.2s ease-in}
+
+.white:hover{box-shadow: 2vw 0vh rgba(0, 0, 0, 0.616);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.221), white); width: 47vw; color: black;}
+
+.black{width: 25vw; height: 4vh;border: 2px solid rgb(117, 117, 117); background-color: black;
+    border-right: 4px solid rgb(117, 117, 117);border-radius: 2vh; transition: box-shadow 0.2s ease-in;
+    box-shadow: 2.5vh 0vh rgba(0, 0, 0, 0.614)}
+
+.black:hover{color: white;box-shadow: 0vh 0vh rgba(0, 0, 0, 0.614);}
+
+#fir{margin-top: -89vh;}
+
+.brf{height: 4vh; background-color: rgba(255, 255, 255, 0);width: 2px; margin-right: 2px;}
+
+.brs{height: 22vh; background-color: rgba(255, 255, 255, 0);width: 2px; margin-right: 2px;}
